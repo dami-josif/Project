@@ -1,1 +1,0 @@
-const inject_viewport_size=($element)=>{let insert=`WH-${$(window).width()}X${$(window).height()}`;$element.parent().addClass(insert);insert=(typeof window.orientation!=="undefined")||(navigator.userAgent.indexOf('IEMobile')!==-1)?'isMobileDevice':'';if(insert)$element.parent().addClass(insert);$element.remove();}
