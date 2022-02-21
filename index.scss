@@ -1,0 +1,122 @@
+@mixin mobile {
+    @media(max-width:640px) {
+        @content;
+    }
+}
+#vid{
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    background-size: cover;
+    background-position: center;
+}
+
+#gen{
+    position: absolute;
+    bottom: 35%;
+    left: 28%;
+    h1{
+        font-size: 80px;
+    }
+    h6{
+        font-size: 20px;
+    }
+}
+
+.genn{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    bottom: 8%;
+    left: 28%;
+}
+.jjj{
+    @include mobile{
+        display: none;
+    }
+}
+.push{
+    padding: 0 120px;
+    @include mobile{
+        padding: 0 0;
+    }
+}
+.country{
+    margin-top: 50px;
+    font-size: 15px;
+    @include mobile{
+        margin-top: 10px;
+    }
+}
+.country:focus{
+    padding: 10px;
+    background-color: yellow;
+    @include mobile{
+        padding: 5px;
+        background-color: yellow;
+    }
+}
+.pushh{
+    padding: 0 250px;
+    @include mobile{
+        padding: 0 0;
+    }
+}
+.countryy{
+    margin-top: 50px;
+    font-size: 13px;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+    @include mobile{
+        margin-top: 10px;
+        padding: 10px 30px;
+        margin-bottom: 30px;
+    }
+}
+#oops{
+    background-image: url(images/founder.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+.bge{
+    background-color: rgb(240, 239, 239);
+}
+.tea{
+    background-color: rgb(231, 229, 229);
+}
+.teaa{
+    background-color: rgb(65, 63, 63);
+}
+.teaak{
+    background-color: black;
+}
+#oopss{
+    background-image: url(images/choirr.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ikaa{
+    background-color: rgb(194, 165, 0);
+    img{
+        @include mobile{
+            width: 250px;
+        }
+    }
+}
+.jeje{
+    background-color: rgba(248, 76, 148, 0.863);
+}
+.gege a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#know{
+    padding-left: 130px;
+    @include mobile{
+        padding-left: 0;
+    }
+}

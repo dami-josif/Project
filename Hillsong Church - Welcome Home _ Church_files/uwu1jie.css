@@ -1,0 +1,31 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * aaux-next:
+ *   - http://typekit.com/eulas/0000000000000000000142ed
+ * hwt-aetna-extra-condensed:
+ *   - http://typekit.com/eulas/00000000000000003b9b2431
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-11-11 02:31:09 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=uwu1jie&ht=tk&f=21960.40177&a=922066&app=typekit&e=css");
+
+@font-face {
+font-family:"aaux-next";
+src:url("https://use.typekit.net/af/f666bb/0000000000000000000142ed/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f666bb/0000000000000000000142ed/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f666bb/0000000000000000000142ed/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"hwt-aetna-extra-condensed";
+src:url("https://use.typekit.net/af/259d62/00000000000000003b9b2431/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/259d62/00000000000000003b9b2431/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/259d62/00000000000000003b9b2431/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-aaux-next { font-family: "aaux-next",sans-serif; }
+.tk-hwt-aetna-extra-condensed { font-family: "hwt-aetna-extra-condensed",serif; }
